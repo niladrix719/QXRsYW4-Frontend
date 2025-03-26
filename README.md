@@ -1,1 +1,1 @@
-# QXRsYW4-Frontend
+# Vue 3 + TypeScript + Vite
