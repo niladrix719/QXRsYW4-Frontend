@@ -1,0 +1,15 @@
+services:
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: niladrix719/qxrsyw4-frontend
+    container_name: vue-app
+    ports:
+      - "5173:5173"
+    networks:
+      - qxrsyw4-network
+
+networks:
+  qxrsyw4-network:
+    external: true
